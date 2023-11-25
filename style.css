@@ -1,0 +1,111 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+table,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  background-color: #444;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main content */
+main {
+  padding: 20px;
+}
+
+/* Services list */
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+/* Featured products table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  main {
+    padding: 10px;
+  }
+}
+
+/* Additional media query for smaller screens */
+@media (max-width: 480px) {
+  nav li {
+    display: block;
+    margin: 5px 0;
+  }
+
+  table {
+    font-size: 14px;
+  }
+}
+
+.page-break {
+  text-align: center;
+  border-bottom: 1px solid #000; /* Adjust the border style as needed */
+  line-height: 0.1em;
+  margin: 10px 0;
+}
+
+.page-break span {
+  background-color: #fff; /* Adjust background color to match your page */
+  padding: 0 10px; /* Adjust padding as needed */
+}
